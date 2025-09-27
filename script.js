@@ -28,7 +28,7 @@ let handleChange = () => {
 
 // setInterval: hàm này sẽ lặp lại hàm handleChange sau mỗi 100ms
 // và trả về key để có thể clearInterval hay có nghĩa là dừng vòng lặp
-let interval = setInterval(handleChange, 100);
+let interval = setInterval(handleChange, 10);
 
 //
 let playerItems = document.querySelectorAll(".user");
